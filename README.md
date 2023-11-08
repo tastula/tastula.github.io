@@ -1,2 +1,0 @@
-# Valtteri Tastula
-
