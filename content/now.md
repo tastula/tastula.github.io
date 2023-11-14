@@ -13,14 +13,13 @@ Still listening to [This Is Why][tiw1] and some of the [reworks][tiw2].
 Following [Rollie][climatetown] and [Cody][smn] for the sweet sweet news.
 
 I have experimented with Twitter and Mastodon a few times, but I feel like
-Status Cafe and its "current status API" are really neat. My choice for now for
-sure.
+Status Cafe and its "current status API" are really neat and easy to use. I can make something like this:
 
 <blockquote>
 <div id="statuscafe-username">tastula</div>
 <div id="statuscafe-content">Loading status...</div>
-</blockquote>
 <script src="/scripts/statuscafe.js"></script>
+</blockquote>
 
 [now]: https://nownownow.com/about
 [smn]: https://www.youtube.com/@SMN

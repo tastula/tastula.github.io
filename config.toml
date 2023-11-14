@@ -18,8 +18,8 @@ enableRobotsTXT = true
 disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]
 [permalinks]
-  blog = "/blog/:slug/"
-  tags = "/tag/:slug"
+  blog = "/blog/:year/:slug/"
+  tags = "/tagged/:slug"
 
 [params]
   # The "description" of your website. This is used in the meta data of your generated html.
@@ -49,7 +49,7 @@ ignoreErrors = ["error-disable-taxonomy"]
   # file. See [Hugo's Format function docs](https://gohugo.io/functions/format/)
   # for details. An example TOML config that uses [ISO
   # 8601](https://en.wikipedia.org/wiki/ISO_8601) format:
-  dateFormat = "2006-01-02"
+  dateFormat = ":date_medium"
 
 [markup.goldmark.renderer]
   unsafe = true
