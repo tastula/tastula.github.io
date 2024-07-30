@@ -4,6 +4,7 @@ title: 'Junction 2023'
 slug: 'junction'
 summary: 'A short review of my first hackathon ever. Spoilers: it was chaotic but super fun.'
 tags: ['postmortem']
+draft: true
 ---
 
 Prior to this November, I hadn't attended a hackathon or a startup event like
