@@ -1,6 +1,6 @@
 ---
-title: 'Now'
-menu: 'main'
+title: "Now"
+menu: "main"
 ---
 
 Here's a list of things that are going on now. Right as we speak! 🤠
@@ -22,11 +22,7 @@ I have experimented with Twitter and Mastodon a few times, but I feel like
 Status Cafe and its "current status API" are really neat. I can make something
 like this:
 
-<blockquote>
-<div id="statuscafe-username">tastula</div>
-<div id="statuscafe-content">Loading status...</div>
-<script src="/scripts/statuscafe.js"></script>
-</blockquote>
+{{< statuscafe >}}
 
 [now]: https://nownownow.com/about
 [smn]: https://www.youtube.com/@SMN

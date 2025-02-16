@@ -1,17 +1,9 @@
 ---
-title: 'Home'
+title: "Home"
+type: "home"
 ---
 
-<span>
-  <img
-    alt="Valtteri's profile picture"
-    class="profile"
-    src="/images/profile.webp"
-    title="This is how I look like"
-    width="256"
-    height="256"
-  />
-</span>
+{{< profile-picture >}}
 
 ## Howdy!
 

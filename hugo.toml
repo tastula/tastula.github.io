@@ -8,7 +8,7 @@ theme = 'hugo-bearblog'
 # Basic metadata configuration for your blog.
 title = 'Valtteri Tastula'
 author = "Valtteri Tastula"
-copyright = "Copyright © 2023"
+copyright = "Copyright © 2025"
 languageCode = "en-US"
 
 # Generate a nice robots.txt for SEO
@@ -49,7 +49,7 @@ ignoreErrors = ["error-disable-taxonomy"]
   # file. See [Hugo's Format function docs](https://gohugo.io/functions/format/)
   # for details. An example TOML config that uses [ISO
   # 8601](https://en.wikipedia.org/wiki/ISO_8601) format:
-  dateFormat = ":date_medium"
+  dateFormat = "2006-01-02"
 
 [markup.goldmark.renderer]
   unsafe = true

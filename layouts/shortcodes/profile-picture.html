@@ -1,0 +1,8 @@
+{{ with resources.Get "images/profile.webp" }}
+<img
+  alt="Valtteri's profile picture"
+  class="profile-pic"
+  src="{{ .RelPermalink }}"
+  title="This is how I look like"
+/>
+{{ end }}
