@@ -1,0 +1,28 @@
+<!--
+  To get custom styles bundled in, use custom style partial in custom body
+  partial. Otherwise the external stylesheet is loaded after the page and
+  underlying styles flash (ugly).
+-->
+<style>
+  :root {
+    --link-color: #c7b09d;
+    --visited-color: #c7b09d;
+  }
+
+  body {
+    background-color: #111415;
+  }
+
+  a.title {
+    text-decoration: none;
+    font-size: 80%;
+  }
+
+  .profile-pic {
+    border-radius: 50%;
+    display: block;
+    margin: 32px auto;
+    width: 256px;
+    height: 256px;
+  }
+</style>

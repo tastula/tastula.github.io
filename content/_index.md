@@ -5,7 +5,7 @@ type: "home"
 
 {{< profile-picture >}}
 
-## Howdy!
+# Howdy!
 
 My name is Valtteri. This is my small hand-crafted corner on the internet.
 

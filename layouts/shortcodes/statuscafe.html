@@ -1,5 +1,6 @@
+{{ $script := resources.Get "scripts/statuscafe.js" }}
 <blockquote>
   <div id="statuscafe-username">tastula</div>
   <div id="statuscafe-content">Loading status...</div>
-  <script src="/scripts/statuscafe.js"></script>
+  <script src="{{ $script.RelPermalink }}"></script>
 </blockquote>
